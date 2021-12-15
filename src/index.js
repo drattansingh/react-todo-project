@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 
 import TodoContainer from "./components/TodoContainer"
 
@@ -9,7 +9,7 @@ import "./App.css"
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter><TodoContainer /></BrowserRouter>
+    <HashRouter><TodoContainer /></HashRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
